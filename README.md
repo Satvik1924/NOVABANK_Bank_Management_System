@@ -51,21 +51,34 @@ nova-bank/
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── com.bank/
-│   │   │       ├── dao/              # Data Access Objects (e.g., AdminDAO.java)
-│   │   │       ├── model/            # Model classes (e.g., Admin.java)
-│   │   │       ├── service/          # Business logic (e.g., AdminService.java)
-│   │   │       ├── gui/              # GUI controllers (e.g., AdminDashboardController.java)
-│   │   │       └── MainFX.java       # Application entry point
+│   │   │       ├── dao/                    # Data Access Objects (e.g., AdminDAO.java)
+│   │   │       ├── model/                  # Model classes (e.g., Admin.java)
+│   │   │       ├── service/                # Business logic (e.g., AdminService.java)
+│   │   │       ├── gui/                    # GUI controllers (e.g., AdminDashboardController.java)
+│   │   │       └── MainFX.java             # Application entry point
 │   │   └── resources/
 │   │       └── com.bank/
-│   │           ├── login_form.fxml    # Login screen
-│   │           ├── client_dashboard.fxml
-│   │           ├── staff_dashboard.fxml
-│   │           ├── admin_dashboard.fxml  # Admin interface
-│   │           ├── approve_loan_form.fxml # Loan approval form
-│   │           └── styles.css         # CSS for styling
-├── pom.xml              # Maven build configuration
-└── README.md            # This file
+│   │           ├── login_form.fxml         # Login screen
+│   │           ├── client_dashboard.fxml   # Client dashboard
+│   │           ├── staff_dashboard.fxml    # Staff dashboard
+│   │           ├── admin_dashboard.fxml    # Admin interface
+│   │           ├── approve_loan_form.fxml  # Loan approval form
+│   │           └── styles.css              # CSS for styling
+│
+├── Database/
+│   ├── Data.sql                 # Sample data for populating tables
+│   ├── Data_Schema.sql          # SQL script for creating database schema
+│   ├── SQL_Queries.sql          # Collection of complex SQL queries used in the project
+│
+├── Final_Presentation.pdf       # Final presentation slides for the project
+├── LLM_Failures.pdf             # Document highlighting failures/issues with LLMs during development
+├── ProjectProposal_ERDiagram.pdf# ER diagram and project proposal documentation
+├── Query_Results.pdf            # Sample output/results of SQL queries
+├── Relational_Model.pdf         # Relational schema/model documentation
+│
+├── pom.xml                      # Maven build configuration
+└── README.md                    # Project overview and documentation (this file)
+
 ```
 
 ## Installation
